@@ -3,7 +3,7 @@
  */
 /* global riot */
 window.riot = require('riot');
-require('./components/app/app');
+require('./components/app');
 require('./routes');
 
 riot.mount('*');

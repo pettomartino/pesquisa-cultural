@@ -2,7 +2,7 @@ var webpack = require("webpack");
 
 module.exports = {
     //cache: true,
-    entry: './app/assets/javascript/index.js',
+    entry: './assets/javascript/index.js',
     output: {
         path: './public/javascript',
         publicPath: '/public/javascript',
