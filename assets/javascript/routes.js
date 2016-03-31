@@ -8,11 +8,8 @@ module.exports = function () {
 
     // Real routes definition
     // ==========================================================
+
     riot.router.routes([
-        //new Route({tag: 'app'}).routes([
-        //    new DefaultRoute({tag: 'events'})
-        //
-        //])
         new DefaultRoute({tag: 'home'})
     ]);
 
@@ -20,5 +17,8 @@ module.exports = function () {
 
     // Start router
     // ==========================================================
+
     riot.router.start();
+    riot.route('/');
+
 };

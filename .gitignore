@@ -1,5 +1,5 @@
 node_modules
-public/javascript/bundle.js
+public/javascript/bundle.js*
 *.idea
 *.gem
 *.rbc

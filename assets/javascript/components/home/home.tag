@@ -1,3 +1,5 @@
 <home>
-    <p>aeee caralho</p>
+    <div class="container">
+        <p>aeee caralho</p>
+    </div>
 </home>
