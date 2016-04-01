@@ -1,5 +1,4 @@
 require('../home');
 <app>
-    bostinha de galinha
-    <route></route>
+    <home></home>
 </app>

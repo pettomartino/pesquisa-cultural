@@ -1,5 +1,12 @@
+require('../event-item');
 <home>
-    <div class="container">
-        <p>aeee caralho</p>
+    <section class="section">
+    <div class="container is-fluid">
+      <div class="columns">
+        <div class="column">
+            <event-item></event-item>  
+        </div>
+      </div>
     </div>
+    </section>
 </home>

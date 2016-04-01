@@ -4,5 +4,6 @@
 /* global riot */
 window.riot = require('riot');
 require('./components/app');
-require('./routes')();
+require('./components/navbar');
+// require('./routes')();
 riot.mount('*');
